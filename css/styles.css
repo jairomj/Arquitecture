@@ -320,4 +320,21 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--whiter);
+}
+.footer a {
+    color: var(--whiter);
+    font-size: 2rem;
+}
+
+.copyright {
+    background-color: var(--blacker);
+    text-align: center;
+    margin: 5rem 0 0 0;
+    font-size: 2rem;
+    padding: 1rem;
 }
